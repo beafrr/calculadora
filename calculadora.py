@@ -1,16 +1,21 @@
 #Complete as funcoes a seguir
 
 def soma(a, b):
-	#Insira o codigo aqui
+	print("A soma é igual a : ", a+b)
 
 def subtrai(a, b):
-	#Insira o codigo aqui
+	print("A subtração é igual a : ", a-b)
 
 def multiplica(a, b):
-	#Insira o codigo aqui
+	print("A multiplicação é igual a : ", a*b)
 
 def divide(a, b):
-	#Insira o codigo aqui
+  if(b==0):
+    print("O segundo número da divisão não pode ser zero")
+    b=float(input("Insira o segundo numero: "))
+    print("A divisão é igual a : ", a/b)
+  else:
+    	print("A divisão é igual a : ", a/b)
 
 
 #Programa principal
